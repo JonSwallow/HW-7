@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Metadata declaring content and author and setting the viewport for
+    repsonsiveness. Linking the stylesheet-->
+    <meta charset="utf-8">
+    <meta name = "description" content= "Choice and Consequence Index Page">
+    <meta name="author" content="Jon Swallow">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <link rel= "stylesheet" href="./css/style.css">
+
+    <!--Title of the page-->
+    <title>Choice and Consequence</title>
+  </head>
+   <body>
+
+     <!--Creating a form and assinging class, action and method
+    Creating an input and assinging an id and placeholder. Creating a button and disabling it onclick so that
+    a person can not hit it over and over spilling the text off my page.-->
+
+    <form class="nameForm" action="#" method="post">
+      <input type="text" name="textInput" placeholder="Enter a name" id="textIn1">
+      <button type="button" name="button" id="runButton" onclick="this.disabled =true;">enter</button>
+    </form>
+
+       <!--Creating that storage division giving us an output space for the above input -->
+       <div class="storageDiv" id="storageDiv">
+       </div>
+
+      <!--Creating divisions and buttons within the divsions-->
+     <div class="d1">
+       <br>
+       <button id="b1">Red Button</button>
+     </div>
+     <div class="d2">
+       <button id="b2">Blue Button</button>
+     </div>
+
+       <!--Creating the original division with text, and many breakpoints for styling-->
+    <div class="original-text-container">
+    <h1> All that remains is the time left to us</h1>
+
+     <p>The cohesive nature of the human soul can be demonstrated through our collective consciousness.<br> Therefore,
+     be the best that you can possibly be always.<br> When it gets tough realize that you can be better.</p>
+     <p>A child is born in to this world. He or She grows up relatively content. <br>This person feels loved and secure, they strive for an education, and work hard.
+    <br> They grow to adulthood and achieve a measure of successful living.<br> One day this person is late for work. They decide to take a short cut and get lost.
+    <br>They drive for hours, though they have lived in the area all of their lives; nothing seems familiar.<br>There is a split in the road up ahead, should they turn left or right?
+    <br>Choose the red button for left or the blue button for right.</p>
+      </div>
+       <!--Same thing as above creating a division with text -->
+     <div class="extra-text-container" hidden="true">
+      <h2>Pushing the red button </h2>
+      <p>Well my friend it seems you have chosen to turn left.<br> Congratulations!! Your choice means absolutely nothing.<br> Or does it....?<br>
+      <br>The subject of our story now turns their vehicle to the left. <br>After a couple of minutes they see a familiar house off to the side of the road.
+      <br>Getting their bearings once again our hero or heroine whichever the case may be;<br> perhaps even our non binary subject of interest, finds their way back to where they started.
+      <br>Opting to go the route they know, they end up being several hours late for work, and receive a mild repremand.</p>
+     </div>
+
+      <!--One more division to create with text I wanted more but I became overwhelmed.-->
+    <div class="another-text-container" hidden="true">
+      <h1>And yet it came to pass</h1>
+      <h1>All was in Chaos</h1>
+      <p>Our subject turns right and 3.5 seconds later is struck by lightning and dies.</p>
+      <p><br>The supposed order of the mind was supplanted, even though numerous attempts had been made to salvage the situation.<br>
+      There was little hope except for the fact that Nature was in control.<br><br>"God's not on anyone's side. God is a force of nature, beyond good and evil, we created those." Gaius Baltar
+      <br>"You're quoting Snoopy the dog, I believe?""I'll quote truth wherever I find it thank you." Richard Bach "Illusions: The Adventures of a Reluctant Messiah"
+      <br>“I think it’s better to have ideas. You can change an idea. Changing a belief is trickier. Life should be malleable and progressive; working from idea to idea permits that.
+      <br>Beliefs anchor you to certain points and limit growth: new ideas can’t generate. Life becomes stagnant.” Rufus the Apostle "Dogma"
+      <br><br>"All is not lost, it turns out we were living in a 2 dimensional universe inside a black hole the whole time anyway." Random String Theorist with little or no credibility</p>
+    </div>
+
+    <!--Creating the slideshoe container and three divisions within it for the images-->
+    <div class="slideshow-container" hidden="true">
+      <div class="mySlides fade">
+       <img src="images/a1.jpg" style="width:50%">
+    </div>
+
+      <div class="mySlides fade">
+       <img src="images/a2.jpg" style="width:50%">
+      </div>
+
+      <div class="mySlides fade">
+       <img src="images/a3.jpg" style="width:50%">
+      </div>
+    </div>
+<br>
+
+  <!--Alright this is not good I had to leave this in because of the javascript function but I got rid of the dots-->
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+  <!--Creating a division for the image for the second text container -->
+<div class="img1" hidden="true">
+  <img src="images/a4.jpg" alt="otherworld" style="width:50%">
+</div>
+
+
+  <!--Declaring the source of the script -->
+
+    <script src="./scripts/scripts.js"></script>
+  </body>
+</html>

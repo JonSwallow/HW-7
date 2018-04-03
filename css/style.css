@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Chicle|Lobster');
+
+/*Importing fonts note: I tried to do this in a seperate file but it would not connect for some reason
+that is beyond me. I opted for placing it here because I chose to use the link rather than a local file*/
+
+/* Declaring the font for the body */
+body{
+  font-family: "Lobster", cursive;
+}
+
+/*Delcaring the properties of the Head lines*/
+  h1 {
+    font-family: 'Chicle', cursive;
+    line-height: 1.5 em;
+    font-weight: 100;
+    margin-bottom: 1em;
+    text-align: center;
+    color: blue;
+    text-shadow: 2.5px 2.5px #030303;
+    text-transform: capitalize;
+    letter-spacing: 0.4em;
+  }
+
+   /*Declaring the properties of the h2 headline I wanted a seperate red headline for that page*/
+    h2 {
+      font-family: 'Chicle', cursive ;
+      line-height: 1.5 em;
+      font-weight: 120;
+      margin-bottom: 1em;
+      text-align: center;
+      color: red;
+        text-shadow: 2.5px 2.5px #030303;
+      text-transform: capitalize;
+      letter-spacing: 0.4em;
+    }
+
+  /* Stylizing my text in as well as the output thereof.*/
+  #textIn1{
+     font-size: 10px;
+     color: Black;
+     font-weight: 200;
+     background-color:#d2fadd;
+     border-color:#61c271;
+     border-width: 3px;
+     font-family:"Chicle",cursive;
+     text-transform: uppercase;
+     border-radius: 20px;
+     border-style: inset;
+     position: relative;
+     margin: auto;
+     top: 1em;
+     padding: 1em;
+     width: 13em;
+     text-align: center;
+    }
+
+/* Stylizing the run button */
+#runButton {
+  font-size: 10px;
+  font-weight: 200;
+ background-color: #61c271;
+ color:white;
+ border-color:#61c271;
+ border-width: 3px;
+ font-family: "Chicle", cursive;
+ text-transform: uppercase;
+ border-radius: 20px;
+ border-style: ridge;
+ position: relative;
+ margin: auto;
+ top: 1em;
+ padding: 1em;
+ width: 9em;
+ text-align: center;
+ cursor:pointer;
+}
+
+/*Creating and stylizing a hover property for this button*/
+#runButton:hover{
+  background-color:#d2f5eb;
+  color: #248a05;
+}
+
+/*Stylizing the big red button*/
+#b1 {
+  font-family: "Chicle",cursive;
+  font-size: 14px;
+  font-weight: 400;
+ text-shadow: 2px 2px black;
+ background-color:#ff3a2c;
+ color:red;
+ border-color:showHideText;
+ border-width: 3px;
+ text-transform: uppercase;
+ border-radius: 40px;
+ border-style: ridge;
+ position: relative;
+ margin: auto;
+ top: 1em;
+ padding: 0.5em;
+ width: 6em;
+ text-align: center;
+ cursor: pointer;
+}
+
+/*Creating and stylizing a hover property for the red button*/
+#b1:hover{
+  background-color: pink;
+  border-color: red;
+  text-shadow: 2px 2px white;
+}
+
+/*Stylizing the blue button*/
+#b2 {
+ font-size: 14px;
+ color: blue;
+ font-weight: 400;
+ background-color:#4646ff;
+ border-color:white;
+ border-width: 3px;
+ font-family:"Chicle",cursive;
+ text-transform: uppercase;
+ text-shadow: 2px 2px black;
+ border-radius: 40px;
+ border-style: ridge;
+ position: relative;
+ margin: auto;
+ top: 1em;
+ padding: 0.5em;
+ width: 6em;
+ text-align: center;
+ cursor: pointer;
+}
+
+/*Creating and stylizing a hover property for the blue button*/
+#b2:hover {
+  background-color:#b5d6ff;
+  border-color:blue;
+  text-shadow: 2px 2px white;
+}
+
+  /*Stylizing the name form with color and transforming text*/
+  .nameForm {
+    padding: 1em;
+    border-color:#61c271;
+    border-width: 3px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border-style: inset;
+    position: relative;
+    margin: auto;
+    top: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+/*Declaring the style of the storage division */
+.storageDiv {
+  padding: 1em;
+  font-family: "Lobster", cursive;
+  text-align: center;
+  color: white;
+  line-height: 1.5em;
+}
+
+/*Stylizing the first container */
+ .extra-text-container {
+   padding: 1em;
+   font-size: 20px;
+      font-family: "Lobster",cursive;
+   text-align: center;
+   color: white;
+   text-shadow: 1.5px 1.5px black;
+   line-height: 1.5em;
+  }
+
+  /*Stylizing the extra container*/
+  .original-text-container {
+    padding: 1em;
+    font-size: 20px;
+    font-family: "Lobster",cursive;
+    text-align: center;
+    color: white;
+    text-shadow: 1.5px 1.5px #030303;
+    line-height: 1.5em;
+}
+
+/*Stylizing the second text container */
+.another-text-container{
+  padding: 1em;
+    font-size: 20px;
+    font-family: "Lobster",cursive;
+    text-align: center;
+    color: white;
+    text-shadow: 1.5px 1.5px #030303;
+    line-height: 1.5em
+}
+
+/*Setting the button to center */
+.d1 {
+text-align: center;
+  margin: auto;
+}
+
+/*Setting the button to center */
+.d2 {
+  text-align: center;
+    margin:auto;
+}
+
+/*Setting the button to center */
+.d3 {
+  text-align: center;
+  margin: 2em;
+}
+
+/*Hiding the slides*/
+.mySlides {display: none;}
+
+/*Positioning the container for the slideshow*/
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/*Declaring active element's properties */
+.active {
+  background-color: #717171;
+}
+
+/*Declaring the fade properties and behavior*/
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/*Positioning the images */
+.img1 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/*Declaring the opacity of the fade*/
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*Declaring the opacity of the fade as it relates to keyframes (I haven't got a damn clue I got this off W3 schools)*/
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
